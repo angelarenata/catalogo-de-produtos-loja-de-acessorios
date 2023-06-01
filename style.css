@@ -13,7 +13,42 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding: 20px 0;
+    background-color: white;
 }
 
+.div-buscar, .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.div-buscar {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.txt-buscar {
+    padding-left: 12px;
+    cursor: pointer;
+    border: none;
+}
+
+.img-buscar {
+    width: 40px;
+    padding: 5px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
