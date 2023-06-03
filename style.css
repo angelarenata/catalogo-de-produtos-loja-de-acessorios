@@ -9,14 +9,17 @@
 body {
     width: 100%;
     min-height: 100vh;
+
 }
 
-header {
+.nav-principal {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 20px 0;
     background-color: white;
+    gap: 20PX;
 }
 
 .div-buscar, .nav-menu {
@@ -36,11 +39,16 @@ header {
     padding-left: 12px;
     cursor: pointer;
     border: none;
+    font-size: 16px;
 }
 
 .img-buscar {
     width: 40px;
     padding: 5px;
+}
+
+.nav-menu {
+    align-items: center;
 }
 
 .nav-menu a {
@@ -51,4 +59,118 @@ header {
 
 .nav-menu a:hover {
     text-decoration: underline;
+}
+
+.input-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-block {
+    cursor: pointer;
+}
+
+.caixa-login {
+    /* display: none;  */ 
+    position: absolute;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    margin-right: 20px;
+    right: 0;
+    top: 100px;
+}
+
+.formulario-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Seção principal */
+
+.principal {
+    background-color: #f6f8f9;;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.principal h1 {
+   color: darkgoldenrod;
+    margin: 30px 0;
+    font-size: 60px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+    height: auto;
+    border: 1px solid silver; 
+    padding: 20px;
+    border-radius: 10px ;
+}
+
+.itens:hover {
+    border: 1.5px solid darkgoldenrod;
+}
+
+
+.img-itens {
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.titulo-itens {
+    color: black;
+    font-size: 22px;
+    margin: 20px 0 5px 0;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color:  darkgray;
+    margin-bottom: 20px;
+}
+
+.preco-antes {
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.preco {
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.btn-comprar {
+    font-size: 20px;
+    color: darkgoldenrod;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;  
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.btn-comprar:hover {
+    border: 1px solid darkgoldenrod;
+}
+
+.btn-comprar:active {
+    background-color: darkgoldenrod;
+    color: white;
 }

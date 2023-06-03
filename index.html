@@ -16,6 +16,8 @@
 
         <body>
             <header>
+
+            <div class="nav-principal">
                 <div class="logo">
                     <a href="index.html">
                         <img src="img/logo.png" alt="logo" class="img-logo" width="150" >
@@ -39,47 +41,71 @@
                     </li>
 
                     <li class="login">
-                        <a href="#">
-                            <img src="img/user.png" width="22">
-                        </a>
+
+                        <img src="img/user.png" width="22">
+
+                        <div class="caixa-login">
+                            <form class="formulario-login">
+                                <label for="login">Email</label>
+                                <input type="email" id="login" class="input-login" required>
+                                
+                                <label for="senha">Senha</label>
+                                <input type="password" id="senha" class="input-login" required>
+                            </form>
+                        </div>
                     </li>
                 </ul>
+
+            </div>
+
             </header>
 
             <main>
+                <section class="principal">
+                    <video src="video/video-slider.mp4" autoplay loop muted width="100%"></video>
 
-                <div>
-                    <video src="video/video-slider.mp4"  autoplay loop muted width="100%"></video>
-                </div>
-
-                <section>
                     <h1>
                         Novidades
                     </h1>
 
                     <div class="container">
                         <div class="itens">
-                            <img src="img/imagem1.jpg" alt="joia">
-                            <p class="titulo">titulo</p>
-                            <p class="preco"></p>
+                            <img src="img/imagem1.jpg" class="img-itens" alt="joia">
+                            <p class="titulo-itens">Brinco de argolinha</p>
+                            <p class="subtitulo">Peça banhada a prata 925, envernizadas e hipoalergênicas</p>
+                            <p class="preco-antes">de R$ 30,00</p>
+                            <p class="preco">por R$ 25,00</p>
+                            <button class="btn-comprar">Comprar</button>
                         </div>
 
                         <div class="itens">
-                            <img src="img/imagem2.jpg" alt="joia">
-                            <p class="titulo">titulo</p>
-                            <p class="preco"></p>
+                            <img src="img/imagem2.jpg" class="img-itens" alt="joia">
+                            <p class="titulo-itens">Conjunto de colares</p>
+                            <p class="subtitulo">Peças banhadas a ouro 18k</p>
+                            <p class="preco-antes">de R$ 99,90</p>
+                            <p class="preco">por R$ 75,00</p>
+                            <button class="btn-comprar">Comprar</button>
+
                         </div>
 
                         <div class="itens">
-                            <img src="img/imagem3.jpg" alt="joia">
-                            <p class="titulo">titulo</p>
-                            <p class="preco"></p>
+                            <img src="img/imagem3.jpg" class="img-itens" alt="joia">
+                            <p class="titulo-itens">Conjunto de colares grandes</p>
+                            <p class="subtitulo">Peça banhada a prata 925, envernizadas e hipoalergênicas</p>
+                            <p class="preco-antes">de R$ 89,99</p>
+                            <p class="preco">por R$ 69,90</p>
+                            <button class="btn-comprar">Comprar</button>
+
                         </div>
 
                         <div class="itens">
-                            <img src="img/imagem4.jpg" alt="joia">
-                            <p class="titulo">titulo</p>
-                            <p class="preco"></p>
+                            <img src="img/imagem4.jpg" class="img-itens" alt="joia">
+                            <p class="titulo-itens">Brincos de argolinhas</p>
+                            <p class="subtitulo">Peças banhadas a ouro 18k</p>
+                            <p class="preco-antes">de R$ 45,00</p>
+                            <p class="preco">por R$35,00 uni</p>
+                            <button class="btn-comprar">Comprar</button>
+
                         </div>
                     </div>
                 </section>
