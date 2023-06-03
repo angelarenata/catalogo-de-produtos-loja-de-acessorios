@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Peças banhadas e Semijoias. Agregando beleza e autenticidade ao seu look!">
+            <title>Vivar - Contatos</title>
+            
+            <link rel="stylesheet" href="style.css">
+
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+            </style>
+        </head>
+
+        <body>
+            <header>
+                <div class="nav-principal">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="logo" class="img-logo" width="150" >
+                        </a>
+                    </div>
+
+                    <div class="div-buscar">
+                        <input type="text" class="txt-buscar" placeholder="Ache sua jóia aqui">
+                        <a href="#">
+                            <img src="img/buscar.png" class="img-buscar" alt="Buscar">
+                        </a>
+                    </div>
+
+                    <ul class="nav-menu">
+                        <li>
+                            <a href="index.html">Início</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Contato</a>
+                        </li>
+
+                        <li class="login">
+                            <img src="img/user.png" width="22">
+
+                            <div class="caixa-login">
+                                <form class="formulario-login">
+                                    <label for="login">Email</label>
+                                    <input type="email" id="login" class="input-login" required>
+                                    
+                                    <label for="senha">Senha</label>
+                                    <input type="password" id="senha" class="input-login" required>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+            <main>
+                <section class="categorias">
+                    <ul>
+                        <li><a class="lista-categoria" href="#">Brincos</a></li>
+                        <li><a class="lista-categoria" href="#">Pulseiras</a></li>
+                        <li><a class="lista-categoria" href="#">Colares</a></li>
+                        <li><a class="lista-categoria" href="#">Anéis</a></li>
+                        <li><a class="lista-categoria" href="#">Pingentes</a></li>
+                        <li><a class="lista-categoria" href="#">Conjuntos</a></li>
+                    </ul>
+                </section>
+
+                <section class="contato">
+                    <p>Entre em contato conosco</p>
+                    <form class="container-form">
+                        <label for="nome" class="label-padrao">Nome</label>
+                        <input type="text" id="nome" class="input-padrao" required placeholder="Nome">
+
+                        <label for="sobrenome" class="label-padrao">Sobrenome</label>
+                        <input type="text" id="sobrenome" class="input-padrao" required placeholder="Sobrenome">
+        
+                        <label for="email" class="label-padrao">Email</label>
+                        <input type="email" id="email" class="input-padrao" required placeholder="Email">
+        
+                        <label for="telefone" class="label-padrao">Telefone</label>
+                        <input type="tel" id="telefone" class="input-padrao" required placeholder="(00) 00000-0000">
+
+                        <label for="mensagem" class="label-padrao">Mensagem</label>
+                        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                        <input type="submit" value="Enviar" class="enviar">
+                    </form>
+                </section>
+
+            </header>
+        </body>

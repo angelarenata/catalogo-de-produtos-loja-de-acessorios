@@ -17,50 +17,59 @@
         <body>
             <header>
 
-            <div class="nav-principal">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="img/logo.png" alt="logo" class="img-logo" width="150" >
-                    </a>
+                <div class="nav-principal">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="logo" class="img-logo" width="150" >
+                        </a>
+                    </div>
+
+                    <div class="div-buscar">
+                        <input type="text" class="txt-buscar" placeholder="Ache sua jóia aqui">
+                        <a href="#">
+                            <img src="img/buscar.png" class="img-buscar" alt="Buscar">
+                        </a>
+                    </div>
+
+                    <ul class="nav-menu">
+                        <li>
+                            <a href="index.html">Início</a>
+                        </li>
+
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+
+                        <li class="login">
+                            <img src="img/user.png" width="22">
+
+                            <div class="caixa-login">
+                                <form class="formulario-login">
+                                    <label for="login">Email</label>
+                                    <input type="email" id="login" class="input-login" required>
+                                    
+                                    <label for="senha">Senha</label>
+                                    <input type="password" id="senha" class="input-login" required>
+                                </form>
+                            </div>
+
+                        </li>
+                    </ul>
                 </div>
-
-                <div class="div-buscar">
-                    <input type="text" class="txt-buscar" placeholder="Ache sua jóia aqui">
-                    <a href="#">
-                        <img src="img/buscar.png" class="img-buscar" alt="Buscar">
-                    </a>
-                </div>
-
-                <ul class="nav-menu">
-                    <li>
-                        <a href="index.html">Início</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Contato</a>
-                    </li>
-
-                    <li class="login">
-
-                        <img src="img/user.png" width="22">
-
-                        <div class="caixa-login">
-                            <form class="formulario-login">
-                                <label for="login">Email</label>
-                                <input type="email" id="login" class="input-login" required>
-                                
-                                <label for="senha">Senha</label>
-                                <input type="password" id="senha" class="input-login" required>
-                            </form>
-                        </div>
-                    </li>
-                </ul>
-
-            </div>
-
             </header>
 
             <main>
+                <section class="categorias">
+                    <ul>
+                        <li><a class="lista-categoria" href="#">Brincos</a></li>
+                        <li><a class="lista-categoria" href="#">Pulseiras</a></li>
+                        <li><a class="lista-categoria" href="#">Colares</a></li>
+                        <li><a class="lista-categoria" href="#">Anéis</a></li>
+                        <li><a class="lista-categoria" href="#">Pingentes</a></li>
+                        <li><a class="lista-categoria" href="#">Conjuntos</a></li>
+                    </ul>
+                </section>
+
                 <section class="principal">
                     <video src="video/video-slider.mp4" autoplay loop muted width="100%"></video>
 
@@ -108,25 +117,6 @@
 
                         </div>
                     </div>
-                </section>
-
-                <section class="contato">
-                    <p>Entre em contato conosco</p>
-                    <form>
-                        <label for="nomesobrenome">Nome</label>
-                        <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome">
-
-                        <label for="nomesobrenome">Sobrenome</label>
-                        <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Sobrenome">
-        
-                        <label for="email">Email</label>
-                        <input type="email" id="email" class="input-padrao" required placeholder="Email">
-        
-                        <label for="telefone">Telefone</label>
-                        <input type="tel" id="telefone" class="input-padrao" required placeholder="(00) 00000-0000">
-
-                        <input type="submit" value="Enviar" class="enviar">
-                    </form>
                 </section>
 
                 <section>

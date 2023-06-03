@@ -19,7 +19,7 @@ body {
     flex-wrap: wrap;
     padding: 20px 0;
     background-color: white;
-    gap: 20PX;
+    gap: 20px;
 }
 
 .div-buscar, .nav-menu {
@@ -89,6 +89,30 @@ body {
     justify-content: center;
 }
 
+/* seção categoria */
+
+.categorias ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.lista-categoria {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.lista-categoria:hover {
+    border-bottom: 1px solid darkgoldenrod;
+}
+
 /*Seção principal */
 
 .principal {
@@ -96,6 +120,7 @@ body {
     text-align: center;
     padding-bottom: 60px;
 }
+
 
 .principal h1 {
    color: darkgoldenrod;
@@ -123,8 +148,12 @@ body {
     border-radius: 10px ;
 }
 
-.itens:hover {
+.itens:hover  {
     border: 1.5px solid darkgoldenrod;
+}
+
+.itens:hover .img-itens {
+    opacity: 0.8;
 }
 
 
@@ -173,4 +202,59 @@ body {
 .btn-comprar:active {
     background-color: darkgoldenrod;
     color: white;
+}
+
+/* página de contatos */
+
+.contato {
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 60px auto;
+    padding: 40px;
+    border: 1px solid black;
+    max-width: 700px;
+    border-radius: 20px;
+}
+
+.contato p {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.label-padrao {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.input-padrao {
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
+ 
+}
+
+.enviar {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: darkgoldenrod;
 }
