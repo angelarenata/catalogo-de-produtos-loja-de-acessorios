@@ -42,20 +42,21 @@
 
                         <li class="login">
                             <img src="img/user.png" width="22">
-
-                            <div class="caixa-login">
-                                <form class="formulario-login">
-                                    <label for="login">Email</label>
-                                    <input type="email" id="login" class="input-login" required>
-                                    
-                                    <label for="senha">Senha</label>
-                                    <input type="password" id="senha" class="input-login" required>
-                                </form>
-                            </div>
-
                         </li>
-                    </ul>
-                </div>
+                    </ul>        
+                </div>  
+
+                <div class="caixa-login">
+                    <form class="formulario-login">
+                        <label for="login">Email</label>
+                        <input type="email" id="login" class="input-login" required>
+                        
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" class="input-login" required>
+
+                        <input type="submit" value="Entrar" class="enviar-login">
+                    </form>
+                </div>          
             </header>
 
             <main>
@@ -138,7 +139,27 @@
                 </a>
 
                 <p class="copyright">&copy; Todos os Direitos Reservados - Vivar Acessórios - 2023</p>
-            </footer>   
+            </footer> 
 
+            <script>
+                const login = document.querySelector('.login');
+                const formulario = document.querySelector('.caixa-login');
+
+                login.addEventListener('click', function() {
+                switch (formulario.style.display) {
+                    case 'none':
+                    formulario.style.display = 'block';
+                    break;
+                    case 'block':
+                    formulario.style.display = 'none';
+                    break;
+                    default:
+                    formulario.style.display = 'none';
+                    break;                    
+                }
+                });
+            </script>  
         </body>
     </html>
+
+    

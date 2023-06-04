@@ -70,11 +70,16 @@ body {
     cursor: pointer;
 }
 
+.login {
+    cursor: pointer;
+}
+
+
 .caixa-login {
-    /* display: none;  */ 
+    display: none;  
     position: absolute;
     width: 220px;
-    border: 1px solid black;
+    border: 1px solid darkgoldenrod;
     border-radius: 10px;
     padding: 10px;
     background-color: white;
@@ -87,6 +92,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 5px;
+}
+
+.enviar-login {
+    margin-top: 15px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+     cursor: pointer;
+
 }
 
 /* seção categoria */
@@ -152,8 +168,12 @@ body {
     border: 1.5px solid darkgoldenrod;
 }
 
-.itens:hover .img-itens {
+.img-itens {
     opacity: 0.8;
+}
+
+.itens:hover .img-itens {
+    opacity: 1;
 }
 
 
@@ -210,8 +230,7 @@ body {
     background-color: darkgoldenrod;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;    
     margin: 60px auto;
     padding: 40px;
     border: 1px solid black;
