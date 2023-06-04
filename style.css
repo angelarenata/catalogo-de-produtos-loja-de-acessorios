@@ -311,3 +311,29 @@ body {
     margin: 20px 0;
     box-shadow: 2px 2px 4px silver;
 }
+
+/* footer */
+
+footer {
+    background-color: grey;
+    text-align: center;
+    padding: 50px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.img-instagram {
+    width: 30px;
+}
+
+.copyright {
+    color: white;
+    margin-top: 30px;
+    font-size: 16px;
+}
