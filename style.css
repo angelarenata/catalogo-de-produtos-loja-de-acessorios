@@ -140,7 +140,6 @@ body {
 .principal {
     background-color: #f6f8f9;;
     text-align: center;
-    padding-bottom: 60px;
 }
 
 
@@ -152,12 +151,12 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .itens {
